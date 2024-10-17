@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #037530;
+  font-family: sans-serif;
+  color: #ffffff;
+  line-height: normal;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  top: 16px;
+  z-index: 1;
+  pointer-events: none;
+  display: inline-block;
+}
+
+#numberButton {
+  display: inline-block;
+  margin-left: 50px;
+  background-color: #037530;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fas {
+  color: white;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 1rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+header,
+main,
+main + section {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+#tabellone,
+.tabellina {
+  background-color: #01310b;
+  color: #ebebeb;
+  border-radius: 8px;
+  border: 8px solid #01310b;
+  margin: 2em 0;
+}
+
+.cell {
+  display: inline-block;
+  width: 9.8%;
+  height: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.cell h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.drawn {
+  background-color: rgb(130, 125, 51);
+  color: rgb(120, 0, 0);
+}
+
+form {
+  margin: 2em 0;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid #01310b;
+}
