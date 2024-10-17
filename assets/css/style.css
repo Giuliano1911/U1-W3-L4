@@ -90,7 +90,7 @@ main + section {
   height: 70px;
   position: relative;
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: 50%;
 }
 
 .cell h3 {
